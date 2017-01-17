@@ -11,7 +11,7 @@ function encode( string ) {
       charCode += 3
       encodedChar = String.fromCharCode( charCode );
     } else if ( ( charCode <= 90 && charCode >= 88 ) || ( charCode <= 122 && charCode >= 120 ) ) {
-      charCode -= 22
+      charCode -= 23
       encodedChar = String.fromCharCode( charCode );
     }
     encodedString += encodedChar

@@ -29,7 +29,7 @@ function decode( string ) {
       charCode -= 3
       decodedChar = String.fromCharCode( charCode );
     } else if ( ( charCode <= 67 && charCode >= 65 ) || ( charCode <= 99 && charCode >= 97 ) ) {
-      charCode += 22
+      charCode += 23
       decodedChar = String.fromCharCode( charCode );
     }
     decodedString += decodedChar
